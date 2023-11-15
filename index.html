@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Remmy Bahati">
+  <meta name="description" content="LinkedIn clone with HTML and CSS.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>LinkedIn Clone</title>
+</head>
+<body>
+  <!-- Nav starts -->
+  <nav>
+    <div class="wrapper">
+      <div class="left">
+        <div class="logo">
+          <i class="fa-brands fa-linkedin" title="Home"></i>
+        </div>
+        <div class="input">
+          <span class="material-symbols-outlined search-input">search</span>
+          <input type="search" placeholder="Search"/>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right-icon">
+          
+          <div>
+            <div>
+              <span class="material-symbols-outlined">home</span>
+            </div>
+            <div>
+              <h4 id="active-link">Home</h4>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <span class="material-symbols-outlined">group</span>
+            </div>
+            <div>
+              <h4>My Network</h4>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <span class="material-symbols-outlined">business_center</span>
+            </div>
+            <div>
+              <h4>Jobs</h4>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <span class="material-symbols-outlined">sms</span>
+            </div>
+            <div>
+              <h4>Messaging</h4>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <span class="material-symbols-outlined">notification_add</span>
+            </div>
+            <div>
+              <h4>Notifications</h4>
+            </div>
+          </div>
+
+          <div title="My Account">
+            <div class="nav-profile">
+              <img src = "images/profile.jpeg"  alt = "My Profile">
+            </div>
+            <div class="last-icon">
+              <h4>Me</h4><span class="material-symbols-outlined">arrow_drop_down</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+        <div class="addional-icon">
+          <div>
+            <div>
+              <span class="material-symbols-outlined">apps</span>
+            </div>
+            <div class="last-icon">
+              <h4>For Business</h4><span class="material-symbols-outlined">arrow_drop_down</span>
+            </div></div>
+            <div><p><a href="#" class="premium-nav">Try Premium for <br> free</a></p>
+          </div>
+        </div>
+
+    </div>
+  </nav>
+  <!-- Nav ends -->
+
+  <!-- Sidebar starts -->
+  <div class="container">
+      <aside>
+        <div class="sidebar">
+          <div class="top"></div>
+          <img src="images/profile.jpeg" alt="" />
+
+          <div class="profile">
+            <a href="#">Remmy Bahati</a>
+            <small>Passion Driven software developer | <br> Problem solver | Javascript </small>
+          </div>
+          <div class="view">
+              <div class="views">
+                  <h6>Who's viewed your profile</h6>
+                  <a href="#">62</a>
+              </div>
+              <div class="views">
+                  <h6>Impressions of your post</h6>
+                  <a href="#">390</a>
+              </div>
+          </div>
+          <div class="premium">
+              <h6>Access exclusive tools & insights</h6>
+              <a href="#"><i class="fa-solid fa-box"></i><span id="premium">Try Premium for free</span></a>
+          </div>
+          <div class="items">
+            <i class="fa-solid fa-bookmark"></i>  
+            <h6>My Items</h6>
+        </div>
+        </div>
+
+        <div class="analytics">
+          <div class="analytics-head">
+            <span class="material-symbols-outlined" id="analytics">corporate_fare</span>
+            <h4>KHILLS</h4>
+          </div>
+          
+          <div class="analytics-main">
+            <div class="analytics-body1">
+              <div>
+                <p>Page notifications</p>
+              </div>
+              <div>2</div>
+            </div>
+            <div class="analytics-body2">
+              <div>
+                <p>Page notifications</p>
+              </div>
+              <div>2</div>
+            </div>
+          </div>
+          <p class="analytics-footer">See visitor analytics</p>
+        </div>
+
+        <div class="recent-jobs">
+            <div class="recent">
+                <h6>Recent</h6>
+                <div class="one">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>Web Designer, HTML & CSS...</h6>
+                </div>
+                <div class="one">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>The Flexbox Jobs...</h6>
+                </div>
+                <div class="one">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>Front End Developer Group</h6>
+                </div>
+                <div class="one">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>UI Developer / Front End...</h6>
+                </div>
+            </div>
+            <div class="groups">
+                <h5>Groups</h5>
+                <div class="two">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>Web Designer, HTML & CSS...</h6>
+                </div>
+                <div class="two">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>The Flexbox Jobs...</h6>
+                </div>
+                <div class="two">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>Front End Developer Group</h6>
+                </div>
+            </div>
+        </div>
+      </aside>
+
+      <!-- Sidebar end -->
+
+      <main>
+        <div class="main-section">
+           <div class="main-section-header">
+            <div class="main-section-top">
+              <img src="images/profile.jpeg" alt="">
+              <div>
+                <input type="search" name="Start a post" id="" placeholder="Start a post">
+              </div>
+            </div>
+            <div class="media-elements">
+              <ul>
+                <li><span class="material-symbols-outlined">imagesmode</span><p>Photo<p></li>
+                <li><span class="material-symbols-outlined">slideshow</span>Video</li>
+                <li><span class="material-symbols-outlined">work</span>Job</li>
+                <li><span class="material-symbols-outlined">edit_note</span>Write article</li>
+              </ul>
+            </div>
+           </div>
+           <div class="main-section-footer">
+            <span><hr id="main-section-footer"></span><h4>Sort by:</h4>Top <span id="main-section-footer-list" class="material-symbols-outlined">arrow_drop_down</span>
+           </div>
+
+           <div class="main-section-body">
+            <div class="main-section-body-top">
+              <div class="main-section-body-top1">
+                <img src="images/profile.jpeg" alt="Profile Image">
+                <h5><span>Elon Musk </span>likes this</h5>
+              </div>
+              
+              <div>
+                <span id="main-section-footer-settings" class="material-symbols-outlined">more_horiz</span>
+              </div>
+            </div>
+           <hr id="main-section-body-top">
+
+           <div class="main-section-body-body">
+            <img src="images/profile.jpeg" alt="">
+            <div class="post-details">
+              <h4>
+                <span>Remmy Bahati</span><span class="material-symbols-outlined">wifi_1_bar</span>
+                Following
+              </h4>
+              <p>Co-Founder, CEO at BAG</p>
+              <div class="post-sub-details">
+                <h5>1d
+                  <span class="material-symbols-outlined">wifi_1_bar</span>
+                  <span class="material-symbols-outlined public">public</span>
+                </h5>
+              </div>
+            </div>
+           </div>
+
+           <div>
+            <p id="post-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat debitis
+              <br> optio dolorem a unde modi itaque similique nam autem nobis cum fuga 
+              <br>eos harum, cupiditate &nbsp;<span id="more-description">...see more</span>
+            </p>
+          </div>
+
+           <img src="images/post.PNG" alt="" id="post-image">
+           </div>
+        </div>
+      </main>
+      <!-- main section end -->
+
+      <!-- Widget section starts -->
+      <div class="widget">
+        <div class="widget-head">
+          <div class="widget-top">
+            <p>Add to your feed</p>
+            <i class="fa fa-user-edit"></i>
+          </div>
+
+          <div class="widget-info">
+            <img src="images/profile.jpeg" alt="">
+            <div>
+              <h4>AEM Community</h4>
+              <p>
+                Company
+                <span class="material-symbols-outlined">wifi_1_bar</span>Information Technology and Service
+              </p>
+              <button>
+                <span class="material-symbols-outlined">add</span>Follow
+              </button>
+            </div>
+          </div>
+
+          <div class="widget-info">
+            <img src="images/profile.jpeg" alt="">
+            <div>
+              <h4>AEM Community</h4>
+              <p>
+                Company
+                <span class="material-symbols-outlined">wifi_1_bar</span>Information Technology and Service
+              </p>
+              <button>
+                <span class="material-symbols-outlined">add</span>Follow
+              </button>
+            </div>
+          </div>
+
+          <div class="widget-info">
+            <img src="images/profile.jpeg" alt="">
+            <div>
+              <h4>AEM Community</h4>
+              <p>
+                Company
+                <span class="material-symbols-outlined">wifi_1_bar</span>Information Technology and Service
+              </p>
+              <button>
+                <span class="material-symbols-outlined">add</span>Follow
+              </button>
+            </div>
+          </div>
+          <p id="recommend">
+            View all recommendations
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </p>
+        </div>
+
+        <div class="widget-ads">
+          <img src="images/ad.jpeg" alt="">
+        </div>
+
+        <div class="widget-footer">
+          <ul>
+            <li>About</li>
+            <li>Accessibility</li>
+            <li>Help Center</li>
+          </ul>
+          
+          <ul>
+            <li id="privacy-link">Privacy & Terms<span class="material-symbols-outlined">arrow_drop_down</span>
+            </li>
+            <li>Ad Choices</li>
+          </ul>
+
+          <ul>
+            <li>Advertising</li>
+            <li id="privacy-link">Business Services<span class="material-symbols-outlined">arrow_drop_down</span>
+            </li>
+          </ul>
+
+          <ul>
+            <li>Get the LinkedIn app</li>
+            <li>More</li>
+          </ul>
+          <p>
+            Linked<i class="fa-brands fa-linkedin"></i> LinkedIn Corporation &#169; 2023
+          </p>
+        </div>
+
+        <div class="footer-message">
+          <div class="left-message">
+            <img src="images/profile.jpeg" alt="">
+            <p>Messaging</p>
+          </div>
+
+          <div class="right-message">
+            <span class="material-symbols-outlined">more_horiz</span>
+            <span class="material-symbols-outlined">box_edit</span>
+            <span class="material-symbols-outlined">keyboard_arrow_up</span>
+          </div>
+        </div>
+      </div>
+      <!-- Widget section end -->
+</body>
+</html>
